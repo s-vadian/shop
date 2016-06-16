@@ -66,3 +66,28 @@ function removeFromCart(id, newList = null){
 	});
 
 }
+
+function updatePrice(id){
+	price = parseInt($('#price_'+id).attr('value'));
+	count = parseInt($('#itemCount_' + id).val());
+	$('#price_'+id).html(price*count + ' руб.');
+}
+
+function checkFormat(value, id, maxq){
+	if (value == "") {
+		//
+	} else {
+		var newValue;
+		newValue = "1" + value;
+		newValue = parseInt(newValue);
+		newValue = newValue + "";
+		newValue = newValue.substr(1, newValue.length);
+		if (value.length > maxq) {
+			newValue = value.substr(0, maxq);
+		};
+		if (isNaN(newValue)) {
+			newValue = "";
+		}
+		$('#' + id).val(newValue);
+	}
+}

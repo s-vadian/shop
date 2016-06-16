@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2016-06-16 09:33:40
+/* Smarty version 3.1.29, created on 2016-06-16 16:49:51
   from "C:\OpenServer\domains\myshop\views\normal\header.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5762484413a0f8_69732975',
+  'unifunc' => 'content_5762ae7f1649f5_52981746',
   'file_dependency' => 
   array (
     '572b894acbe13e7a97c4562563d4fdf74e8078fe' => 
     array (
       0 => 'C:\\OpenServer\\domains\\myshop\\views\\normal\\header.tpl',
-      1 => 1466058817,
+      1 => 1466084988,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_5762484413a0f8_69732975 ($_smarty_tpl) {
+function content_5762ae7f1649f5_52981746 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -136,8 +136,5 @@ css/main.css">
 		<!-- <nav class="nav_menu">
 
 		</nav> -->
-
-		<nav>
-			
-		</nav><?php }
+	<br><?php }
 }

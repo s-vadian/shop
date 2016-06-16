@@ -102,7 +102,4 @@
 		<!-- <nav class="nav_menu">
 
 		</nav> -->
-
-		<nav>
-			
-		</nav>
+	<br>
