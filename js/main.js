@@ -91,3 +91,15 @@ function checkFormat(value, id, maxq){
 		$('#' + id).val(newValue);
 	}
 }
+
+function showRegBox(){
+	$('#modal_form').css('opacity', '1');
+	$('#modal_form').css('left', '50%');
+	$('#overlay').css('display', 'block');
+}
+
+function hideModalForm(){
+	$('#modal_form').css('opacity', '0');
+	$('#modal_form').css('left', '-9999px');
+	$('#overlay').css('display', 'none');
+}

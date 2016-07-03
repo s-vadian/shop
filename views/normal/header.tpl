@@ -24,7 +24,7 @@
 <body>
 
 	<div class="container">
-
+	
 		<nav>
 			<div class="leftbl">
 
@@ -51,7 +51,7 @@
 
 				<div class="reg left">
 					<img src="/images/lock.png" alt="">
-					<a href="#">Регистрация</a>
+					<a href="#" onclick="showRegBox(); return false;">Регистрация</a>
 				</div>
 
 				<div class="razdright left"></div>
