@@ -19,7 +19,7 @@ class DB{
 		//
 	}
 	function delete($query){
-		//
+		// test2
 	}
 	function __destruct()
 	{
