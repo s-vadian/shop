@@ -20,9 +20,11 @@ class DB{
 	}
 	function delete($query){
 		// test2
+		// test
 	}
 	function __destruct()
 	{
 		$this->mysqli->close();
 	}
+	
 }
